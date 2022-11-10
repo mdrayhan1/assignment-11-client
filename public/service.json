@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Content Management System",
+        "img": "https://media.istockphoto.com/id/1312319228/photo/photo-on-cms-theme-the-abbreviation-cms-on-a-colorful-background-technology-concept-image.jpg?s=612x612&w=0&k=20&c=frJqgu8PO1yPz2kHkdKLln12B4UztSh22rY9atF2TGM=",
+        "des": "A content management system is for creating, managing, and optimizing your customers' digital experience...",
+        "price": "$50"
+    },
+    {
+        "id": 2,
+        "name": "Event Booking System",
+        "img": "https://cdn.nimbusthemes.com/2016/01/26174359/best-event-booking-wordpress-themes.jpg",
+        "des": "Preparations for en event is time consuming and requires dedication. Software that can aid you and that...",
+        "price": "$40"
+    },
+    {
+        "id": 3,
+        "name": " Document Management System",
+        "img": "https://cdn.vectorstock.com/i/preview-lt/87/91/word-cloud-document-management-vector-1718791.webp",
+        "des": "Document management, often referred to as Document Management Systems (DMS), is the use of a computer...",
+        "price": "$90"
+    }
+]

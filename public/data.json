@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+"name": "Content Management System",
+"img": "https://media.istockphoto.com/id/1312319228/photo/photo-on-cms-theme-the-abbreviation-cms-on-a-colorful-background-technology-concept-image.jpg?s=612x612&w=0&k=20&c=frJqgu8PO1yPz2kHkdKLln12B4UztSh22rY9atF2TGM=",
+"des": "A content management system is for creating, managing, and optimizing your customers' digital experience. More specifically, a CMS is a software application that allows users to collaborate in the creation, editing, and production of digital content: web pages, blog posts, etc.",
+"price": "$50"
+    },
+   {
+    "id": 2,
+    "name": "Event Booking System",
+    "img": "https://cdn.nimbusthemes.com/2016/01/26174359/best-event-booking-wordpress-themes.jpg",
+    "des": "Preparations for en event is time consuming and requires dedication. Software that can aid you and that doesnt eat into you budget is hard to get by. Our Magnet Event Pro-service is free for all free events",
+    "price": "$40"
+   },
+    {
+        "id": 3,
+        "name": " Document Management System",
+        "img": "https://cdn.vectorstock.com/i/preview-lt/87/91/word-cloud-document-management-vector-1718791.webp",
+        "des": "Document management, often referred to as Document Management Systems (DMS), is the use of a computer system and software to store, manage and track electronic documents and electronic images of paper-based information captured through the use of a document scanner.",
+        "price": "$90"
+    },
+    {
+        "id": 4,
+        "name": "Web Application",
+        "img": "https://cdn.vectorstock.com/i/preview-lt/42/36/word-cloud-web-application-vector-18564236.webp",
+        "des": " A Web application (Web app) is an application program that is stored on a remote server and delivered over the Internet through a browser interface. Web services are Web apps by definition and many, although not all, websites contain Web apps.",
+        "price": "$80"
+    },
+    {
+        "id": 5,
+        "name": "Web Hosting",
+        "img": "https://cdn.vectorstock.com/i/preview-lt/23/32/web-hosting-cloud-hosting-domain-name-bandwidth-vector-44592332.webp",
+        "des": "Web hosting is an online service that enables you to publish your website or web application on the internet. When you sign up for a web hosting service, you basically rent some space on a physical server where you can store all the files and data necessary for your website to work properly.",
+        "price": "$55"
+    },
+    {
+        "id": 6,
+        "name": "Web Portals",
+        "img": "https://cdn.vectorstock.com/i/preview-lt/05/34/web-search-portals-blue-gradient-concept-icon-vector-42180534.webp",
+        "des": "A portal is a web-based platform that collects information from different sources into a single user interface and presents users with the most relevant information for their context. Over time, simple web portals have evolved into portal platforms that support digital customer experience initiatives.",
+        "price": "$60"
+
+    }
+
+]
