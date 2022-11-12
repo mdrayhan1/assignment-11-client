@@ -7,9 +7,11 @@ import BookedService from '../../BookedService/BookedService';
 import Home from '../../Home/Home/Home';
 import Login from '../../Login/Login';
 import MyReviews from '../../MyReviews/MyReviews';
+import Review from '../../Review/Review';
 import ServiceDetails from '../../ServiceDetails/ServiceDetails';
 import Services from '../../Services/Services';
 import SignUp from '../../SignUp/SignUp';
+import PrivateRoute from '../PrivateRoute/PrivateRoute';
 const router = createBrowserRouter([
     {
       path:'/',
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
           element: <Banner ></Banner>
         },
         {
-          path: '/banner',
+          path: '/services',
           element: <Services></Services>
         },
         {
@@ -32,8 +34,12 @@ const router = createBrowserRouter([
           element: <AllServices></AllServices>
         },
         {
-          path: '/servicedetails',
-          element: <ServiceDetails></ServiceDetails>
+          path: "/services/:id",
+          loader: ({ params }) =>
+            fetch(
+              `http://localhost:5000/services/${params.id}`
+            ),
+          element: <ServiceDetails></ServiceDetails>,
         },
         {
           path: '/login',
@@ -45,21 +51,21 @@ const router = createBrowserRouter([
         },
         {
           path: '/bookedservice',
-          element: <BookedService></BookedService>
+          element: <PrivateRoute><BookedService></BookedService></PrivateRoute>
         },
         {
           path: '/myreviews',
-          element: <MyReviews></MyReviews>
+          element: <PrivateRoute><MyReviews></MyReviews></PrivateRoute>
+        },
+        {
+          path: '/addreview',
+          element: <PrivateRoute><Review></Review></PrivateRoute>
         },
         {
           path: '/signup',
           element: <SignUp></SignUp>
-        },
-        {
-          path: '/logout',
-          
         }
-
+        
       ]
       
     }
