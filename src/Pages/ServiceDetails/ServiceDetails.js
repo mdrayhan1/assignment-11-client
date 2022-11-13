@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, useLoaderData } from "react-router-dom";
-import Review from "../Review/Review";
 
 const ServiceDetails = () => {
   const details = useLoaderData();
